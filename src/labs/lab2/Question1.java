@@ -10,11 +10,11 @@ public class Question1 {
 	 Scanner input = new Scanner(System.in);
 	 
 	   //Asking for input, input limit
-	 System.out.println("Enter a limit");
-	 int limit = Integer.parseInt(input.nextLine());
+	 System.out.println("Enter the triangle's base");
+	 int base = Integer.parseInt(input.nextLine());
 	 
 	   //for loop that moves from a line to another
-	 for (int i=1; i<=limit; i++) {
+	 for (int i=1; i<=base; i++) {
 	   //for loop that prints the stars needed 
 		 for (int j=0; j<i; j++) {
 			 
