@@ -19,7 +19,7 @@ public class Q4 {
 
 	public static void main(String[] args) {
 		
-		// Creating a new class
+		// Creating a new scanner
 		 Scanner input = new Scanner(System.in);
 		 
 		// Asking for temp in Faranheit, input, output it in Celcius

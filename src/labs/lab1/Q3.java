@@ -9,7 +9,7 @@ public class Q3 {
 
 	public static void main(String[] args) {
 		
-		//Creating a new class
+		//Creating a new scanner
 				Scanner input = new Scanner(System.in);	
 				
 		//Asking for name, input name, printing out first letter		

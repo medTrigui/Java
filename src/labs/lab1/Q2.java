@@ -37,7 +37,7 @@ public class Q2 {
        
     //Convert your height in inches to feet and inches where inches is an integer (mode operator)
         
-        System.out.println("your height is "+ (int)height1/12 +"ft and " + (double)height1 % 12 + "inches");
+        System.out.println("your height is "+ (int)height1/12 +"ft and " + (int)height1 % 12 + "inches");
 		
 		
 		
