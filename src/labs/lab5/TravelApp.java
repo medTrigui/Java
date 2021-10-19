@@ -12,7 +12,7 @@ public class TravelApp {
 		Scanner input = new Scanner(System.in);
 		boolean done = false;
 		
-		do {
+		do { 
 		// Menu 
 			System.out.println();
 			System.out.println("1. Add New Trip");

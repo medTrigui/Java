@@ -34,7 +34,7 @@ public class Train extends Trip {
 			return false;
 		} else if (stops != t.getStops()) {
 			return false;
-		}
+		} 
 		
 		return true;
 	}

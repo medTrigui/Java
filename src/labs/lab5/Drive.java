@@ -9,7 +9,7 @@ public class Drive extends Trip {
 		super();
 		gallonsOfGas = 0;
 	}
-//Non default constructor
+//Non default constructor 
 
 	public Drive(double duration, String origin, String destination, double gallonsOfGas) {
 		super(duration, origin, destination);

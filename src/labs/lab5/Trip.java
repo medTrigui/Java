@@ -15,7 +15,7 @@ public abstract class Trip {
 	this.destination = "South Pole";
 	}
 
-//Non default constructor
+//Non default constructor 
 	public Trip(double duration, String origin, String destination) {
 		this.duration = duration;
 		this.origin = origin;

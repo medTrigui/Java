@@ -4,7 +4,7 @@ public class Flight extends Trip {
 //Instance variable
 	private boolean meals;
 
-//Default constructor
+//Default constructor: 
 	public Flight() {
 		super();
 		meals = false;
@@ -23,7 +23,7 @@ public class Flight extends Trip {
 	public void setMeals(boolean meals) {
 		this.meals = meals;
 	}
-//to string method
+//to string method:
 	@Override
 	public String toString() {
 		return "Flight [meals=" + meals + "]";
