@@ -1,0 +1,139 @@
+Name,Latitude,Longitude,Description,Wheelchair,Red:33,Green:28,Blue:33,Brown:27,Purple:27,Pink:22,Orange:16
+Harlem,41.88706,-87.80486,elevated,TRUE,-1,0,-1,-1,-1,-1,-1
+Oak Park,41.886784,-87.794324,elevated,FALSE,-1,1,-1,-1,-1,-1,-1
+Ridgeland,41.886784,-87.784628,elevated,FALSE,-1,2,-1,-1,-1,-1,-1
+Austin,41.887293,-87.774135,elevated,FALSE,-1,3,-1,-1,-1,-1,-1
+Central,41.887389,-87.76565,elevated,TRUE,-1,4,-1,-1,-1,-1,-1
+Laramie,41.887163,-87.754986,elevated,TRUE,-1,5,-1,-1,-1,-1,-1
+Cicero,41.886519,-87.744698,elevated,TRUE,-1,6,-1,-1,-1,-1,-1
+Pulaski,41.885412,-87.725404,elevated,TRUE,-1,7,-1,-1,-1,-1,-1
+Conservatory-Central Park Drive,41.884904,-87.716513,elevated,TRUE,-1,8,-1,-1,-1,-1,-1
+Kenzie,41.884321,-87.706155,elevated,TRUE,-1,9,-1,-1,-1,-1,-1
+California,41.88422,-87.696234,elevated,TRUE,-1,10,-1,-1,-1,-1,-1
+Ashland,41.885268,-87.666969,elevated,TRUE,-1,11,-1,-1,-1,11,-1
+Morgan,41.8856,-87.6522,elevated,TRUE,-1,12,-1,-1,-1,12,-1
+Clinton,41.885678,-87.641782,elevated,TRUE,-1,13,-1,-1,-1,13,-1
+Clark/Lake,41.885767,-87.630885,elevated,TRUE,-1,14,16,26,19,14,12
+State/Lake,41.88574,-87.627835,elevated,FALSE,-1,15,-1,25,20,15,13
+Washington/Wabash,41.8829,-87.626205,elevated,TRUE,-1,16,-1,24,21,16,14
+Adams/Wabash,41.884431,-87.6261,elevated,FALSE,-1,17,-1,23,22,17,15
+Roosevelt,41.867368,-87.627402,elevated/subway,TRUE,23,18,-1,-1,-1,-1,7
+Cermak-McCormick,41.8531548,-87.626423,elevated,TRUE,-1,19,-1,-1,-1,-1,-1
+35th-Bronzeville-IIT,41.831677,-87.625826,elevated,TRUE,-1,20,-1,-1,-1,-1,-1
+Indiana,41.821732,-87.621371,elevated,TRUE,-1,21,-1,-1,-1,-1,-1
+43rd,41.816462,-87.619021,elevated,TRUE,-1,22,-1,-1,-1,-1,-1
+47th,41.8094,-87.61909,elevated,TRUE,-1,23,-1,-1,-1,-1,-1
+51st,41.8022,-87.61903,elevated,TRUE,-1,24,-1,-1,-1,-1,-1
+Garfield,41.79454,-87.61835,elevated,TRUE,-1,25,-1,-1,-1,-1,-1
+Halsted,41.77954,-87.64468,elevated,TRUE,-1,26,-1,-1,-1,-1,-1
+Ashland/63rd,41.77943,-87.66393,elevated,TRUE,-1,27,-1,-1,-1,-1,-1
+47th,41.810318,-87.63094,surface,TRUE,26,-1,-1,-1,-1,-1,-1
+63rd,41.780536,-87.630952,surface,TRUE,28,-1,-1,-1,-1,-1,-1
+69th,41.768367,-87.625724,surface,TRUE,29,-1,-1,-1,-1,-1,-1
+79th,41.750419,-87.625112,surface,TRUE,30,-1,-1,-1,-1,-1,-1
+87th,41.735372,-87.624717,surface,TRUE,31,-1,-1,-1,-1,-1,-1
+95th/Dan Ryan,41.722377,-87.624342,surface,TRUE,32,-1,-1,-1,-1,-1,-1
+Addison,41.947428,-87.653626,elevated,TRUE,12,-1,-1,-1,-1,-1,-1
+Argyle,41.973453,-87.65853,embankment,FALSE,8,-1,-1,-1,-1,-1,-1
+Belmont,41.939751,-87.65338,elevated,TRUE,13,-1,-1,11,11,-1,-1
+Berwyn,41.977984,-87.658668,embankment,FALSE,7,-1,-1,-1,-1,-1,-1
+Bryn Mawr,41.983504,-87.65884,embankment,FALSE,6,-1,-1,-1,-1,-1,-1
+Cermak-Chinatown,41.853206,-87.630968,elevated,TRUE,24,-1,-1,-1,-1,-1,-1
+Chicago,41.896671,-87.628176,subway,TRUE,17,-1,-1,-1,-1,-1,-1
+Clark/Division,41.90392,-87.631412,subway,TRUE,16,-1,-1,-1,-1,-1,-1
+Fullerton,41.925051,-87.652866,elevated,TRUE,14,-1,-1,14,14,-1,-1
+Garfield,41.79542,-87.631157,surface,TRUE,27,-1,-1,-1,-1,-1,-1
+Grand,41.891665,-87.628021,subway,TRUE,18,-1,-1,-1,-1,-1,-1
+Granville,41.993664,-87.659202,embankment,TRUE,4,-1,-1,-1,-1,-1,-1
+Harrison,41.874039,-87.627479,subway,FALSE,22,-1,-1,-1,-1,-1,-1
+Howard,42.019063,-87.672892,embankment,TRUE,0,-1,-1,-1,8,-1,-1
+Jackson,41.878153,-87.627596,subway,TRUE,21,-1,19,-1,-1,-1,-1
+Jarvis,42.015876,-87.669092,embankment,FALSE,1,-1,-1,-1,-1,-1,-1
+Lake,41.884809,-87.627813,subway,TRUE,19,-1,-1,-1,-1,-1,-1
+Lawrence,41.969139,-87.658493,embankment,FALSE,9,-1,-1,-1,-1,-1,-1
+Loyola,42.001073,-87.661061,embankment,TRUE,3,-1,-1,-1,-1,-1,-1
+Monroe,41.880745,-87.627696,subway,FALSE,20,-1,-1,-1,-1,-1,-1
+Morse,42.008362,-87.665909,embankment,FALSE,2,-1,-1,-1,-1,-1,-1
+North/Clybourn,41.910655,-87.649177,subway,FALSE,15,-1,-1,-1,-1,-1,-1
+Sheridan,41.953775,-87.654929,elevated,FALSE,11,-1,-1,-1,10,-1,-1
+Sox-35th,41.831191,-87.630636,surface,TRUE,25,-1,-1,-1,-1,-1,-1
+Thorndale,41.990259,-87.659076,embankment,FALSE,5,-1,-1,-1,-1,-1,-1
+Wilson,41.964273,-87.657588,elevated,FALSE,10,-1,-1,-1,9,-1,-1
+O`Hare,41.981127,-87.900876,underground,TRUE,-1,-1,0,-1,-1,-1,-1
+Rosemont,41.983507,-87.859388,elevated,TRUE,-1,-1,1,-1,-1,-1,-1
+Cumberland,41.9842246,-87.838028,surface,TRUE,-1,-1,2,-1,-1,-1,-1
+Harlem,41.982456,-87.80705,surface,TRUE,-1,-1,3,-1,-1,-1,-1
+Jefferson Park,41.970833,-87.761111,surface,TRUE,-1,-1,4,-1,-1,-1,-1
+Montrose,41.961539,-87.743574,surface,FALSE,-1,-1,5,-1,-1,-1,-1
+Irving Park,41.952964,-87.729263,elevated,FALSE,-1,-1,6,-1,-1,-1,-1
+Addison,41.94738,-87.71906,surface,FALSE,-1,-1,7,-1,-1,-1,-1
+Belmont,41.939274,-87.711684,subway,FALSE,-1,-1,8,-1,-1,-1,-1
+Logan Square,41.929722,-87.708611,subway,TRUE,-1,-1,9,-1,-1,-1,-1
+California,41.921944,-87.696944,elevated,FALSE,-1,-1,10,-1,-1,-1,-1
+Western,41.916111,-87.6875,elevated,TRUE,-1,-1,11,-1,-1,-1,-1
+Damen,41.909722,-87.6775,elevated,FALSE,-1,-1,12,-1,-1,-1,-1
+Division,41.903333,-87.666389,subway,FALSE,-1,-1,13,-1,-1,-1,-1
+Chicago,41.896111,-87.655278,subway,FALSE,-1,-1,14,-1,-1,-1,-1
+Grand,41.891111,-87.6475,subway,FALSE,-1,-1,15,-1,-1,-1,-1
+Washington,41.883164,-87.62944,subway,FALSE,-1,-1,17,-1,-1,-1,-1
+Monroe,41.880703,-87.629378,subway,FALSE,-1,-1,18,-1,-1,-1,-1
+LaSalle,41.875568,-87.631722,subway,FALSE,-1,-1,20,-1,-1,-1,-1
+Clinton,41.875539,-87.640984,subway,FALSE,-1,-1,21,-1,-1,-1,-1
+UIC-Halsted,41.875474,-87.649707,surface,TRUE,-1,-1,22,-1,-1,-1,-1
+Racine,41.87592,-87.659458,surface,FALSE,-1,-1,23,-1,-1,-1,-1
+Illinois Medical District,41.875706,-87.673932,surface,TRUE,-1,-1,24,-1,-1,-1,-1
+Western,41.875478,-87.688436,surface,FALSE,-1,-1,25,-1,-1,-1,-1
+Kedzie-Homan,41.874341,-87.70604,surface,TRUE,-1,-1,26,-1,-1,-1,-1
+Pulaski,41.873797,-87.725663,surface,FALSE,-1,-1,27,-1,-1,-1,-1
+Cicero,41.871574,-87.745154,surface,FALSE,-1,-1,28,-1,-1,-1,-1
+Austin,41.970851,-87.776812,surface,FALSE,-1,-1,29,-1,-1,-1,-1
+Oak Park,41.872108,-87.791602,surface,FALSE,-1,-1,30,-1,-1,-1,-1
+Harlem,41.87349,-87.806961,surface,FALSE,-1,-1,31,-1,-1,-1,-1
+Forest Park,41.874257,-87.817318,elevated,TRUE,-1,-1,32,-1,-1,-1,-1
+Kimball,41.967628,-87.712934,at-grade,TRUE,-1,-1,-1,0,-1,-1,-1
+Kedzie,41.966099,-87.709426,at-grade,TRUE,-1,-1,-1,1,-1,-1,-1
+Francisco,41.966155,-87.702099,at-grade,TRUE,-1,-1,-1,2,-1,-1,-1
+Rockwell,41.966208,-87.69472,at-grade,TRUE,-1,-1,-1,3,-1,-1,-1
+Western,41.966259,-87.688448,elevated,TRUE,-1,-1,-1,4,-1,-1,-1
+Damen,41.966398,-87.679004,elevated,TRUE,-1,-1,-1,5,-1,-1,-1
+Montrose,41.96165,-87.675162,elevated,TRUE,-1,-1,-1,6,-1,-1,-1
+Irving Park,41.954387,-87.674956,elevated,TRUE,-1,-1,-1,7,-1,-1,-1
+Addison,41.946972,-87.674728,elevated,TRUE,-1,-1,-1,8,-1,-1,-1
+Paulina,41.943722,-87.670858,elevated,TRUE,-1,-1,-1,9,-1,-1,-1
+Southport,41.943822,-87.663383,elevated,TRUE,-1,-1,-1,10,-1,-1,-1
+Wellington,41.936203,-87.653239,elevated,TRUE,-1,-1,-1,12,12,-1,-1
+Diversey,41.932748,-87.653155,elevated,TRUE,-1,-1,-1,13,13,-1,-1
+Armitage,41.918234,-87.652659,elevated,TRUE,-1,-1,-1,15,15,-1,-1
+Sedgwick,41.910397,-87.638631,elevated,TRUE,-1,-1,-1,16,16,-1,-1
+Chicago,41.896467,-87.635833,elevated,TRUE,-1,-1,-1,17,17,-1,-1
+Merchandise Mart,41.888675,-87.633966,elevated,TRUE,-1,-1,-1,18,18,-1,-1
+Washington/Wells,41.882541,-87.633824,elevated,TRUE,-1,-1,-1,19,26,21,11
+Quincy,41.878752,-87.633703,elevated,FALSE,-1,-1,-1,20,25,20,10
+LaSalle/Van Buren,41.8768,-87.631739,elevated,FALSE,-1,-1,-1,21,24,19,9
+Harold Washington Library,41.876862,-87.628196,elevated,TRUE,-1,-1,-1,22,23,18,8
+Linden,42.07379,-87.69056,at-grade,TRUE,-1,-1,-1,-1,0,-1,-1
+Central,42.06395,-87.685742,elevated,FALSE,-1,-1,-1,-1,1,-1,-1
+Noyes,42.058088,-87.683196,elevated,FALSE,-1,-1,-1,-1,2,-1,-1
+Foster,42.054136,-87.683604,elevated,FALSE,-1,-1,-1,-1,3,-1,-1
+Davis,42.04771,-87.68363,elevated,TRUE,-1,-1,-1,-1,4,-1,-1
+Dempster,42.04187,-87.68237,elevated,FALSE,-1,-1,-1,-1,5,-1,-1
+Main,42.03333,-87.67925,elevated,FALSE,-1,-1,-1,-1,6,-1,-1
+South Boulevard,42.02792,-87.67919,elevated,FALSE,-1,-1,-1,-1,7,-1,-1
+54th/Cermak,41.851663,-87.759598,at-grade,TRUE,-1,-1,-1,-1,-1,0,-1
+Cicero,41.85182,-87.745336,at-grade,TRUE,-1,-1,-1,-1,-1,1,-1
+Kostner,41.853751,-87.733258,at-grade,TRUE,-1,-1,-1,-1,-1,2,-1
+Pulaski,41.853732,-87.724311,elevated,TRUE,-1,-1,-1,-1,-1,3,-1
+Central Park,41.853839,-87.714842,elevated,TRUE,-1,-1,-1,-1,-1,4,-1
+Kedzie,41.853964,-87.705408,elevated,TRUE,-1,-1,-1,-1,-1,5,-1
+California,41.854109,-87.694774,elevated,TRUE,-1,-1,-1,-1,-1,6,-1
+Western,41.854225,-87.685129,elevated,TRUE,-1,-1,-1,-1,-1,7,-1
+Damen,41.854517,-87.675975,elevated,TRUE,-1,-1,-1,-1,-1,8,-1
+18th,41.857955,-87.669178,elevated,TRUE,-1,-1,-1,-1,-1,9,-1
+Polk,41.871551,-87.66953,elevated,TRUE,-1,-1,-1,-1,-1,10,-1
+Midway,41.78661,-87.737875,at-grade,TRUE,-1,-1,-1,-1,-1,-1,0
+Pulaski,41.799756,-87.724493,elevated,TRUE,-1,-1,-1,-1,-1,-1,1
+Kedzie,41.804236,-87.704406,embankment,TRUE,-1,-1,-1,-1,-1,-1,2
+Western,41.804546,-87.684019,embankment,TRUE,-1,-1,-1,-1,-1,-1,3
+35th/Archer,41.829353,-87.680622,embankment,TRUE,-1,-1,-1,-1,-1,-1,4
+Ashland,41.839234,-87.665317,elevated,TRUE,-1,-1,-1,-1,-1,-1,5
+Halsted,41.84678,-87.648088,elevated,TRUE,-1,-1,-1,-1,-1,-1,6
