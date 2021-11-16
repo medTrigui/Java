@@ -1,0 +1,138 @@
+
+Phase1: Description: 
+
+*Description of the user interface:
+
+The user interface represents the menu that is going to be in the Application class
+It includes 8 options:
+ 1. Create a new station:
+ 	The user will prompted for the name of the station, its latitude, longitude, description, whether it contains a wheelChair , and the line that contains it. 
+
+2. Modify station:
+	the user will be prompted for the name of the station, and the characteristics they want o modify
+
+3. Remove station:
+	The user will be prompted for the name of the station, if the same name is on multiple lines, the choices will show appear and the user will choose which one they want to remove.
+
+4.Search for a station by name:
+	The user will be prompted for the name of the station, and then all the stations of that name will appear
+
+5.Search for a station by requirements: 
+	A menu will appear to the user containing :
+		1.search for a station that has a wheelChair
+		2.search for stations on a line
+		3.search for stations by description
+
+If the user chooses 2, then he will be prompted for the line name.
+
+6.Find station:
+	The user will be prompted for his latitude and a longitude and then the nearest station will appear.
+
+7.Generate path:
+	The user will be prompted for the first station's name and then the second station's name.
+	If the same name exists multiple times, the user will prompted for the line.
+
+8.Exit: 
+	when the user types exit or 8, the program should exit. 
+
+
+*Description of the programmer's tasks:
+	- Describe how you will read the input 
+
+		-I will use a Scanner to read the input
+		-In the main method, the user will choose from the menu 
+		 and then the user will be asked to enter some information
+ 		depending on his choice such as a name of the station.
+
+  - Describe how you will process the data from the input file 
+ 
+  -I will create a representative of the file CTAStops.csv in my application class.
+  -I will create a new scanner
+  - I will then read the lines in the file until there is no line left.
+  -While reading the lines, I will separate the data by comma and put the values in an array of strings
+  so that I can assign the parameters of each constructor from the array of values.
+  -In the first column, I will use two nested for loops to determine whether a station is unique or multiple:
+  If the name of the station is present only once, then it is an instance of a unique station
+  If the name of the station is present more than once, then it is an instance of a multiple station.
+ 
+   
+  - Describe how you will store the data 
+  
+  
+   	- I will use the process described above to differentiate between the stations
+  	- Next, I will create instances of each station within the read existing file method in the application class and the parameters will be assigned accordingly.
+  	- I will add the station instance to the line it belongs to.
+  	- I will also have array list of lines which will store all the instances of line classes. 
+    
+    
+  
+  - How will you add/delete/modify data? 
+  
+  *Add: - the add method will be in the line class, it takes the parameter station s.
+  		- I will check whether the station is unique or multiple
+  		- The station s will be added to the array list named "stations" using stations.add(s)
+  		
+  
+  *Delete: - The delete method will take one parameter which is the station s we want to delete.
+  		   - I will call the search method and prompt the user for which station he wants to remove 
+  		   and then I will remove the station using stations.remove()
+  		   
+  *Modify: - The modify method will take one parameter which is the station s we want to modify.
+  		   - I will call the search method and prompt the user for which station he wants to modify 
+  		   and then I will get the user inputs for everything that is going to be changed and then I use the attribute.set 
+  
+  
+  - How will you search data? 
+ 			-The search method will be within the application class
+  			-The search method takes a parameter which is the input 
+  		    -I will go through all the lines and stations within the lines using nested for loops to look for the input 
+  		    -It returns all the line index and the station index which will be used in the above methods.
+
+  
+ *Classes: List of names and descriptions:
+ 
+ -  The abstract class station  will hold all the attributes of the station:
+	name, longitude, latitude, description, wheelChair. 
+ 	It contains the getters and setters for each of those attributes.
+ 
+ -  The Subclass unique station will hold all the attributes of the abstract class by inheritance and another attribute 
+	 called number of lines: it represents the number of lines that intersect in that station. That can be done by a for loop and a counter that increases 
+	 whenever there is a number different than -1 within the last 7 columns of each line
+ 
+ -	The Subclass multipleStation will hold all the attributes of the abstract class by inheritance and another attribute 
+ 	called number of stations: It shows how many stations there are with a certain name through the nested loops that loop in the first column of the file.
+ 
+ - The line class:
+ 	- will hold all the stations and all the methods that will affect the array list of stations: 
+ 	It will contain the general add, delete and modify methods that will affect the array list of stations within the line class.
+ 
+- Application class : 
+ 	-Contains the main method that contains the menu and calls all the other methods based on the choice of the user, and the instances of the line class.
+ 	-Contains a method that reads from the file
+ 	-Contains an add, delete, and modify method that affect the instances of the line by calling the general methods from the line class
+  	-Contains the search method that takes a name input and compare it to the stations within each instance of the line, and returns all the indexes.
+  	-Contains the search method that takes the requirements and return the stations that meet those requirements.
+  	-The method that generates a path between two stations when given two station names and specifications if needed
+  
+  
+  *Testing plan:
+	My testing plan will proceed from the Application class, I will test each method I write before moving to the next one:
+	First, I will write the add method, then I will test it in the app class by choosing the first option in the menu, and adding a random station,
+    I will make a for loop that shows the elements of the array list that the station should be added to and check whether it did.
+    Next, I will choose to modify a station that already exists and print out the result to check whether it has been modifies.
+    Then I will choose to modify a station that I added and see whether it has been modifies.
+    I will then choose to delete a method and print out the array list to check whether it has been deleted.
+    Next, I will test the two search station methods: I will first enter a real station and then a fake one, it should prints out station not found
+    The same for the search station by requirements.
+    For the find station, I will test multiple values for latitude and longitude: high and low numbers and check whether the latitude and the given station is actually the closest to the given position.
+    Finally for the generate path method, I will test different station names and each time I will be checking whether the given path is accurate and short.
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
