@@ -4,7 +4,7 @@
 
 ## Break Down
 
-Phase 1: -/50
+Phase 1: 50/50
 
 - Description of the user interface -/3
 - Description of the programmer's tasks:
@@ -35,3 +35,7 @@ Phase 2: -/100
 - All classes are complete (getters, setters, toString, equals...) -/5
 
 ## Comments
+
+### Design Comments
+
+Design looks good.
