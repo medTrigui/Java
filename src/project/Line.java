@@ -1,3 +1,10 @@
+/*Mohamed Trigui 12/09/2021
+ * Line class represents a line in general:
+ * A line has a name and a list of stations
+ * The line class holds the methods that have direct access to the list of stations.
+ */
+
+
 package project;
 
 import java.util.ArrayList;
@@ -32,7 +39,6 @@ public class Line {
 	public void setStations(ArrayList<Station> stations) {
 		this.stations = stations;
 	}
-	
 
 	public String getName() {
 		return name;
@@ -65,65 +71,52 @@ public class Line {
 		return "Line [stations=" + stations + ", name=" + name + "]";
 	}
 
-//add station
-	public void  addStation(Station s) {
-		
-	if (stations.size()==0) {
-		stations.add(s);
-	}
-		
-		
-	else {
-		for (int i=0; i<stations.size(); i++) {
-			
-			if ((stations.get(i-1).latitude < s.latitude) && (stations.get(i+1).latitude > s.latitude) && (stations.get(i-1).longitude < s.longitude) && (stations.get(i+1).longitude> s.longitude)) {
-				stations.add(i , s);
-				System.out.println("Station"+ s + "has been added.");
-			}
-			else if ((stations.get(0).latitude > s.latitude) && (stations.get(0).longitude> s.longitude)) {
-				stations.add(0, s);
-			}
-			else if((stations.get(stations.size()).latitude < s.latitude) && (stations.get(stations.size()).longitude < s.longitude))  {
-				stations.add(stations.size(), s);
-			}
-				//break;
-		}
-	}
-}
 
 //search station
-	public ArrayList<Station> searchStation( String name) {
-	ArrayList<Station> searchResults = new ArrayList<Station>();
+	public Station searchStation(String name) {
 		
 	for(Station current: stations) {
 		if (current.getName().equalsIgnoreCase(name)) {
-			searchResults.add(current);
-		}
+			System.out.println("Found");
+			return current;
+		}	
 	}
-	return searchResults;
-	}
+	System.out.println("Not found");
+	return null;
+}
 	
 
-//delete station
-	public void deleteStation(String name) {
-		ArrayList<Station> possible = searchStation(name);
+	
+//add station (called in the main method of application class if the user wants to add)	
+		public void  addStation(Station s) {
+		stations.add(s);
 		
-		if (possible.size() == 0) {
+	}
+	
+//delete station (called in the main method of application class if the user wants to delete)	
+	public void deleteStation(String name) {
+		//ArrayList<Station> possible = searchStation(name);
+		Station possible = searchStation(name);
+		
+		if (possible  == null) {
 			System.out.println("Station not found");
 		} 
-		else if (possible.size() == 1) {
-			stations.remove(possible.get(0)) ;
+		else  {
+			stations.remove(possible) ;
+			System.out.println("Station "+ possible.getName() +" has been removed. ");
 		} 
 	
 	}
-//Modify Station	
+//Modify Station (called in the main method of application class if the user wants to modify)	
 	public void modifyStation(String name) {
-		ArrayList<Station> possible = searchStation(name);
+		//ArrayList<Station> possible = searchStation(name);
+		Station possible = searchStation(name);
+
 		
-		if (possible.size() == 0) {
+		if (possible == null) {
 			System.out.println("Station not found");
 		}
-		else if (possible.size() == 1) {
+		else  {
 			boolean done = false;
 			
 			do {
@@ -136,7 +129,7 @@ public class Line {
 				System.out.println();
 
 				String choice = input.nextLine();
-				int index = stations.indexOf(possible.get(0));
+				int index = stations.indexOf(possible);
 				switch (choice) {
 				case "1":
 					System.out.println("New name: ");
@@ -173,20 +166,59 @@ public class Line {
 				
 			} while (!done);
 		}
-		input.close();
 	}
 	
-	//print for the testing
+	//print details of the station
 	public void printStations() {
-		for (int i=0; i<stations.size();i++) {
-			System.out.println(stations.get(i));
+		for (int i=0; i<this.stations.size();i++) {
+			System.out.println(this.stations.get(i).station());
 		}
 	}
 	
+  //search for a station that has a wheel chair:
 	
+	public ArrayList<Station> searchWheel() {
+		ArrayList<Station> stat = new ArrayList<Station>();
+		for(Station current: stations) {
+			if (current.isWheelchair() == true) {
+				stat.add(current);
+				System.out.print(current.getName() + " , ");
+			}
+				
+		}
+		return stat;
+		
+	}
+	//Distance formula method:
+	public static double distance(double lat1 , double lat2, double lon1, double lon2) {
+		double distance = Math.sqrt((lat2-lat1)*(lat2-lat1) + (lon2-lon1)*(lon2-lon1));
+		return distance;
+	}
 	
+	//search for the nearest station:
 	
+	public Station searchNear(double lat, double lon) {
+		double NearestD = 999999999;
+		Station nearest = null;
+		for(Station current: stations) {
+			double d  = distance(lat, current.getLatitude(), lon, current.getLongitude());
+			if (d < NearestD) {
+				NearestD = d;
+				nearest = current;
+			}
+		}
+		
+		return nearest;
+	}
 	
-	
-	
+	//search Station for the generate path:
+		public Station searchStationG(String name) {
+			for(Station current: stations) {
+				if(current.getName().equalsIgnoreCase(name)) {
+					return current;
+				}
+			}
+			return null;
+		}
 }
+

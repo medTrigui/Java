@@ -1,3 +1,8 @@
+/*Mohamed Trigui 12/09/2021
+ * UniqueStation  is a sub class that represents a unique station: A station that is unique i.e, there is only one latitude and one longitude of that station
+ * UniqueStation inherits from the Station abstract class and has a specific variable which is the number of lines that share that station
+ */
+
 package project;
 
 public class UniqueStation extends Station {
@@ -38,16 +43,13 @@ public class UniqueStation extends Station {
 	//To string
 			@Override
 			public String toString() {
-				return "UniqueStation [numberOfLines=" + numberOfLines + "]";
+				return this.name + " UniqueStation [numberOfLines=" + numberOfLines + "]";
 			}
-			
-			
 	
 	//@override specific
 			@Override
 			public String station() {
-				// TODO Auto-generated method stub
-				return null;
+				return "Station: " + name + " - Latitude: " + latitude+ "- Longitude: "+ longitude+" - Description: "+description+" - Wheelchair: "+wheelchair;
 			}
 	
 	

@@ -1,3 +1,8 @@
+/*Mohamed Trigui 12/09/2021
+ * Station class is the abstract class that represents a station
+ * A station has a name, latitude, longitude, description and availability of wheelchair
+ */
+
 package project;
 
 import java.util.Objects;
@@ -83,18 +88,6 @@ public abstract class Station {
 				+ description + ", wheelchair=" + wheelchair + "]";
 	}
 
-	public String details() {
-		String results = "";
-		results += "Station: " + name;
-		results += "Latitude: " + latitude;
-		results += "Longitude: " + longitude;
-		results += "Description: " + description;
-		results += "Wheelchair: " + wheelchair;
-		
-		
-		return results;
-		
-	}
 	
 	public abstract String station() ;
 		

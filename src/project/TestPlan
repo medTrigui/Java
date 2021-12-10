@@ -1,0 +1,323 @@
+    1.Create new station test: 
+
+		Output									|					  Input
+												|	
+	Enter a line:								|				 loop (not accurate)
+			             						|		 
+	The line must be accurate					|
+	Enter a line:    							|				 red
+												|
+	Type of station:							|
+	(UniqueStation/ MultipleStation):			|				 UniqueStation			
+												|
+												|
+	Name of the station: 						|				 Tunis	
+												|
+	Latitude of the station:					|
+	Enter a double:								|				 no
+												|
+	Input has to be a double					|
+	Enter a double: 							|				 41.12
+												|
+	Longitude of the station: 					|
+	Enter a double: 							|				 okay
+												|
+												|
+	Input has to be a double					|				
+	Enter a double: 							|				 -87
+												|
+												|
+	Description of the station: 				|				elevated
+												|
+	Wheelchair (true/false): 					|	
+	Enter'true' or 'false'						|				what
+												|
+	Enter'true' or 'false'						|				true
+												|
+	Number of lines that share this station: 	|
+	Enter an integer:  							|				apple
+												|
+	Input has to be an integer					|
+	Enter an integer:  							|				2
+	
+	
+	
+	
+	
+	2. Modify Station test:						|
+												|
+	Line to modify a station on:  				|
+	Enter a line: 								|				banana
+												|
+	The line must be accurate					|
+	Enter a line: 								|				red
+												|
+												|
+	Name of the station: 						|				Tunis
+												|
+	Found										|
+	1. Modify name: 							|
+	2. Modify latitue: 							|
+	3. Modify longitude: 						|
+	4. Modify description: 						|
+	5. Modify wheelchair: 						|
+	6. Exit: 									|				7
+												|
+	I'm sorry, but I didn't understand that.	|
+	1. Modify name: 							|
+	2. Modify latitue: 							|
+	3. Modify longitude: 						|
+	4. Modify description: 						|
+	5. Modify wheelchair: 						|
+	6. Exit: 									|				5
+												|
+	New wheelchair: 							|				false
+												|
+	1. Modify name: 							|
+	2. Modify latitue: 							|
+	3. Modify longitude: 						|
+	4. Modify description: 						|
+	5. Modify wheelchair: 						|
+	6. Exit: 									|				6
+												|
+	Station has been modified. 					|
+	
+	
+	
+	
+	3.Remove Station test:					    |
+												|
+	Line to remove station from: 				|
+	Enter a line: 								|				green
+												|
+	Name of the station:						|				harlem
+												|
+	Found										|
+	Station Harlem has been removed. 			|
+												|
+	
+	
+	
+	
+	4.Search for a station by name test:
+	
+	
+	Name of the station: 						|				mmm
+												|
+												|
+		red:									|
+		Not found								|
+												|
+		purple:									|
+		Not found								|			
+												|
+		brown:									|	
+		Not found								|
+												|
+		blue:									|
+		Not found								|
+												|
+		green:									|
+		Not found								|
+												|
+		pink:									|
+		Not found								|
+												|
+		orange:									|
+		Not found								|				(we choose 4 again from the menu)
+												|
+												|
+		Name of the station: 					|				roosevelt
+												|
+		red:									|
+		Found									|
+		Roosevelt								|
+												|
+		purple:									|
+		Not found								|
+												|
+		brown:									|
+		Not found								|
+												|
+		blue:									|
+		Not found								|
+												|
+		green:									|		
+		Found									|
+		Roosevelt								|
+												|
+		pink:									|
+		Not found								|
+												|	
+		orange:									|
+		Found									|
+		Roosevelt								|
+	
+	
+	
+	5.Search for a station by requirements test: 
+	
+												Output                                                                                                 Input
+	
+	
+Options:
+1. Search for stations that have wheelchair access: 																		|
+2. Search for stations on a specific line: 																	             	|				3
+																															|
+	I did not understand that. 																								|				(we choose 5 again from the menu)
+																															|
+																															|
+Options:																													|
+1. Search for stations that have wheelchair access: 																		|
+2. Search for stations on a specific line: 																					|				1
+																															|
+																															|
+																															|
+Roosevelt , 47th , 63rd , 69th , 79th , 87th , 95th/Dan Ryan , 																|
+Addison , Belmont , Cermak-Chinatown , Chicago , Clark/Division , 															|
+Fullerton , Garfield , Grand , Granville , Howard , Jackson , Lake ,														|
+Loyola , Sox-35th , Clark/Lake , Washington/Wabash , Belmont , Fullerton ,													|
+Howard , Wellington , Diversey , Armitage , Sedgwick , Chicago ,															|
+Merchandise Mart , Washington/Wells , Harold Washington Library , Linden , 													|
+Davis , Clark/Lake , Washington/Wabash , Belmont , Fullerton , Kimball ,													|
+Kedzie , Francisco , Rockwell , Western , Damen , Montrose , Irving Park ,													|
+Addison , Paulina , Southport , Wellington , Diversey , Armitage ,															|
+Sedgwick , Chicago , Merchandise Mart , Washington/Wells , 																	|	
+Harold Washington Library , Clark/Lake , Jackson , O`Hare , Rosemont ,														|
+Cumberland , Harlem , Jefferson Park , Logan Square , Western , 															|
+UIC-Halsted , Illinois Medical District , Kedzie-Homan , Forest Park ,														|
+Central , Laramie , Cicero , Pulaski , Conservatory-Central Park Drive , 													|
+Kenzie , California , Ashland , Morgan , Clinton , Clark/Lake , Washington/Wabash ,											|
+Roosevelt , Cermak-McCormick , 35th-Bronzeville-IIT , Indiana , 43rd , 47th ,												|
+51st , Garfield , Halsted , Ashland/63rd , Ashland , Morgan , Clinton , Clark/Lake ,										|
+Washington/Wabash , Washington/Wells , Harold Washington Library , 54th/Cermak , Cicero ,									|
+Kostner , Pulaski , Central Park , Kedzie , California , Western , Damen , 18th , Polk ,									|
+Clark/Lake , Washington/Wabash , Roosevelt , Washington/Wells , Harold Washington Library ,									|
+Midway , Pulaski , Kedzie , Western , 35th/Archer , Ashland , Halsted , 													|
+																															|
+																															|
+1. Create a new station: 																									|
+2. Modify station: 																											|
+3. Remove station: 																											|
+4. Search for a station by name: 																							|	
+5. Search for a station by requirements: 																					|		
+6. Find station: 																											|		
+7. Generate path between two stations: 																						|
+8. Exit:																													|			5
+																															|
+																															|
+Options:																													|	
+1. Search for stations that have wheelchair access: 																		|
+2. Search for stations on a specific line:																					|			2
+																															|
+																															|
+Line: 																														|
+Enter a line: 																												|			apple
+																															|
+																															|
+The line must be accurate																									|
+Enter a line: 																												|			purple
+																															|																														
+Station: Clark/Lake - Latitude: 41.885767- Longitude: -87.630885 - Description: elevated - Wheelchair: true					|
+Station: State/Lake - Latitude: 41.88574- Longitude: -87.627835 - Description: elevated - Wheelchair: false					|
+Station: Washington/Wabash - Latitude: 41.8829- Longitude: -87.626205 - Description: elevated - Wheelchair: true			|
+Station: Adams/Wabash - Latitude: 41.884431- Longitude: -87.6261 - Description: elevated - Wheelchair: false				|
+Station: Belmont - Latitude: 41.939751- Longitude: -87.65338 - Description: elevated - Wheelchair: true						|
+Station: Fullerton - Latitude: 41.925051- Longitude: -87.652866 - Description: elevated - Wheelchair: true					|
+Station: Howard - Latitude: 42.019063- Longitude: -87.672892 - Description: embankment - Wheelchair: true					|
+Station: Sheridan - Latitude: 41.953775- Longitude: -87.654929 - Description: elevated - Wheelchair: false					|
+Station: Wilson - Latitude: 41.964273- Longitude: -87.657588 - Description: elevated - Wheelchair: false					|
+Station: Wellington - Latitude: 41.936203- Longitude: -87.653239 - Description: elevated - Wheelchair: true					|
+Station: Diversey - Latitude: 41.932748- Longitude: -87.653155 - Description: elevated - Wheelchair: true					|
+Station: Armitage - Latitude: 41.918234- Longitude: -87.652659 - Description: elevated - Wheelchair: true					|
+Station: Sedgwick - Latitude: 41.910397- Longitude: -87.638631 - Description: elevated - Wheelchair: true					|
+Station: Chicago - Latitude: 41.896467- Longitude: -87.635833 - Description: elevated - Wheelchair: true					|
+Station: Merchandise Mart - Latitude: 41.888675- Longitude: -87.633966 - Description: elevated - Wheelchair: true			|
+Station: Washington/Wells - Latitude: 41.882541- Longitude: -87.633824 - Description: elevated - Wheelchair: true			|
+Station: Quincy - Latitude: 41.878752- Longitude: -87.633703 - Description: elevated - Wheelchair: false					|
+Station: LaSalle/Van Buren - Latitude: 41.8768- Longitude: -87.631739 - Description: elevated - Wheelchair: false			|
+Station: Harold Washington Library - Latitude: 41.876862- Longitude: -87.628196 - Description: elevated - Wheelchair: true	|
+Station: Linden - Latitude: 42.07379- Longitude: -87.69056 - Description: at-grade - Wheelchair: true						|
+Station: Central - Latitude: 42.06395- Longitude: -87.685742 - Description: elevated - Wheelchair: false					|
+Station: Noyes - Latitude: 42.058088- Longitude: -87.683196 - Description: elevated - Wheelchair: false						|
+Station: Foster - Latitude: 42.054136- Longitude: -87.683604 - Description: elevated - Wheelchair: false					|
+Station: Davis - Latitude: 42.04771- Longitude: -87.68363 - Description: elevated - Wheelchair: true						|
+Station: Dempster - Latitude: 42.04187- Longitude: -87.68237 - Description: elevated - Wheelchair: false					|
+Station: Main - Latitude: 42.03333- Longitude: -87.67925 - Description: elevated - Wheelchair: false						|
+Station: South Boulevard - Latitude: 42.02792- Longitude: -87.67919 - Description: elevated - Wheelchair: false				|
+				
+
+6. Find nearest station test:
+
+
+Enter your current latitude: 							|			
+Enter a double: 										|					orange
+														|
+Input has to be a double								|
+Enter a double: 										|					41.05
+														|
+														|
+Enter your current longitude: 							|
+Enter a double: 										|					-87.11
+														|
+The nearest station is found on red: 95th/Dan Ryan		|
+	
+	
+	
+7.Generate path test:
+	
+Departure: Station name: 										|	orange
+																|
+Station not found!												|
+																|
+Destination: Station name: 										|	banana
+																|	
+Station not found!												|
+																|
+Station was not found so path cannot be generated.				|	
+Returning to the main menu...									|	(we choose 7 again)
+																|
+																|	
+Departure: Station name:										|	35th-bronzeville-iit
+																|	
+Destination: Station name: 										|	oak park	
+																|
+1. Oak Park at blue line										|
+2. Oak Park at green line										|	3
+																|
+Station was not found so path cannot be generated.				|
+Returning to the main menu...									|	(we choose 7 from the menu again)
+																|
+Departure: Station name:										|	35th-bronzeville-iit	
+																|
+Destination: Station name:										|	oak park	
+																|		
+1. Oak Park at blue line										|
+2. Oak Park at green line										|	2	
+																|
+To go from 35th-bronzeville-iit to oak park take the green line	|
+Do you want to save the path to file? 							|	no
+																|
+Menu															|	7 (again)
+																|
+Departure: Station name:										|	35th-bronzeville-iit
+																|
+Destination: Station name:										|	o`hare	
+																|	
+To go from 35th-bronzeville-iit to o`hare, 						|
+take the green line and transfer at Clark/Lake to the blue line |
+																|	
+Do you want to save the path to a file? 						|	yes
+																|
+Enter your file's name: 										|	path.txt	
+(a file that has the path in the project package)				|
+	
+	
+8.Exit																8
+Goodbye!
+
+Menu																anything other than number from 1 to 8	
+
+I'm sorry but I didn't understand that
+(Menu again)
+	
